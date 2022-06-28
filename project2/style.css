@@ -1,0 +1,243 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color:white;
+}
+#navebar{
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+}
+#navebar::before{
+    content: "";
+    background-color: gray;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+    z-index: -1;
+}
+#logo img{
+    height: 60px;
+    width: 90px;
+    margin: 5px 5px;
+ 
+}
+#navebar ul{
+
+    display: flex;
+}
+ul li{
+    list-style: none;
+    font-size: 1.3rem;
+    padding: 10px 33px;
+}
+ul li a{
+    font-family: 'Baloo Bhai 2', cursive;
+    display: block;
+    color:white;
+    padding: 0px 12px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+ul li a:hover{
+    color: black;
+    background-color: white;
+}
+#home{
+    font-family: 'Joan', serif;
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    align-items: center;
+    height: 600px;
+    justify-content: center;
+}
+#home::before{
+    
+    content: "";
+    /* margin-top: 400px; */
+    background: url(img/home1.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 70%;
+    width: 100%;
+    opacity: 0.89;
+    z-index: -1;
+}
+.hprime{
+    margin: 33px;
+    font-size: 3.8rem;
+    padding: 12px;
+    /* text-align: center; */
+}
+#home p{
+    /* margin-bottom: 5px; */
+    text-align: center;
+    font-size: 1.5rem;
+}
+.btn{
+    margin: 30px;
+    font-weight: bold;
+    background-color: brown;
+    border: 2px solid white;
+    padding: 6px 20px;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+.btn:hover{
+   transform: scale(1.1);
+}
+.hsec{
+    font-size: 1.8rem;
+    padding: 12px;
+    color: black;
+    
+}
+.center{
+    text-align: center;
+}
+.services{
+    font-family: 'Joan', serif;
+    margin: 1px;
+}
+.services H1{
+    color: black;
+    text-decoration: underline;
+}
+#services{
+    display: flex;
+    /* flex-direction: column; */
+}
+#services .box{
+    margin: 5px;
+    padding: 22px;
+    border: 2px solid red;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+#services .box:hover{
+    transition: 0.5s;
+  transform: scale(1.2);
+  
+}
+#services .box p{
+    color: black;
+    font-family: 'Joan', serif;
+}
+#services .box img{
+   height: 200px;
+   display: block;
+   /* width: 200px; */
+   margin: auto;
+}
+#client-section h2{
+    text-decoration: underline;
+    color: black;
+}
+#client-section {
+    margin-top: 60px;
+   height: 250px;
+}
+#clients{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#clients img{
+    /* padding: 10px 34px; */
+    height: 100px;
+}
+.clientsitems{
+    height: 100px;
+    margin: 10px 10px;
+    padding: 34px;
+}
+#client-section::before{
+    content: "";
+    position: absolute;
+    background: url(img/vegetables.jpg) no-repeat center center/cover;
+    width: 100%;
+    height: 45%;
+    z-index: -1;
+    opacity: 0.7;
+
+}
+.contact{
+    /* display: flex; */
+    /* flex-direction: column; */
+    position: relative;
+    margin-top: 250px;
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+   
+}
+.contact::before{
+    margin-top: 20px;
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+    background: url(img/coantact.jpg) no-repeat center center/cover;
+}
+.contact h1 {
+    text-decoration: underline;
+    padding-top: 20px;
+    color: black;
+
+}
+.formgroup label{
+    font-family: 'Joan', serif;
+    
+    color: black;
+    font-size: 1.3rem;
+    font-weight: bold; 
+    display: block;
+    width: 200px;
+}
+
+#contactbox {
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    
+}
+#contactbox textarea{
+    border-radius: 10px;
+    color: black;
+    width: 100%;
+    padding: 0.5rem;
+}
+ .formgroup input {
+    font-family: 'Joan', serif;
+    color: black;
+    margin: 5px;
+    padding: 5px 5px;
+ font-size: 15px;
+ border: 2px solid brown;
+ border-radius: 5px;
+ width: 300px;
+    
+} 
+.contact .btn{
+    padding: 5px 10px;
+}
+.contact .btn:hover{
+    border: brown 2px solid;
+    padding: 5px 10px;
+    background-color: gray;
+}
+
+footer{
+    font-family: 'Joan', serif;
+    background-color: gray;
+    font-size: 20px;
+}

@@ -1,0 +1,87 @@
+#navebar{
+   
+flex-direction: column;
+width: 100vw;
+
+}
+
+
+#navebar ul li{
+    padding: 3px 10px;
+    font-size: 1.1rem;
+
+}
+#navebar ul li a{
+    padding: 3px 5px;
+    
+
+}
+
+.btn{
+    font-size: 13px;
+    
+    padding: 3px 8px;
+}
+
+#services{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+#home{
+    height: 500px;
+    padding: 2px 60px;
+}
+#home::before{
+    height: 400px;
+}
+.hprime{
+    text-align: center;
+    font-size: 20px;
+}
+#home p{
+    font-size: 12px;
+}
+#clients{
+    flex-wrap: wrap;
+}
+#clients-section{
+    height: 96px;
+}
+#clients img{
+    height: 38px;
+}
+.clientsitems{
+    
+        height: 8px;
+        margin: 0px 10px;
+        padding: 25px;
+   
+}
+.contact{
+    margin-top: 120px;
+}
+.contact h1{
+    padding-top: 51px ;
+}
+#client-section h2{
+   padding: 10px 10px;
+}
+footer{
+    
+    font-size: 12px;
+}
+.contact{
+    
+    margin-top: 150px;
+    height: 700px;
+   
+}
+.formgroup label{
+    
+    font-size: 12px;
+}
+.formgroup input {
+  font-size: 10px;
+} 
+    
